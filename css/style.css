@@ -1,3 +1,63 @@
-body{
-    background-color: aquamarine;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+:root {
+    --black: #000000;
+    --dark-grey: #222222;
+    --light-grey: #4A4A4A;
+    ---white: #FFFFFF;
+    --green: #4BC800;
+    --red: #F10E26;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--black);
+    font-family: Poppins, sans-serif;
+}
+
+/* menu  */
+menu {
+    background-color: var(--dark-grey);
+    height: 70px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+
+.mic-cam,
+.toolbar,
+.end-meeting{
+    display: flex;
+}
+
+.set {
+    text-align: center;
+    padding: 0 0.6rem;
+    font-size: 1rem;
+}
+
+.share i{
+    color: var(--green);
+}
+
+.end-meeting{
+    color: var(--red);
+    background-color: var(--light-grey);
+    height: 70px;
+    padding: 1rem;
+    align-items: center;
+}
+
