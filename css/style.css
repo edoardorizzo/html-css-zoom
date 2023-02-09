@@ -48,6 +48,11 @@ menu {
     font-size: 1rem;
 }
 
+.arrow{
+    display: flex;
+    align-items: center;
+    margin: 0 0.5rem;
+}
 
 /* hover non richiesto ma carino */
 .set:hover i{
